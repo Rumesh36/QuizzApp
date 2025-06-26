@@ -1,16 +1,21 @@
 import React from 'react';
 import Errorpic from "../assets/img/error.gif";
+import { MdErrorOutline } from 'react-icons/md'; 
 
 const Error = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-purple-200 to-blue-400">
  
-     <div>
-        <h1 className='text-center text-4xl font-bold mb-4 max-sm:text-2xl'>404 Error Page Not Found....</h1>
-     </div>
+       <div className="flex items-center gap-2 mb-4 animate-bounce">
+             <MdErrorOutline className="text-5xl text-red-600 font-bold animate-spin " />
+             <h1 className='text-4xl font-extrabold  max-sm:text-2xl'>
+               404 - Page Not Found
+             </h1>
+      </div> 
+
       <div className="text-center mb-6">
         <h1 className="text-3xl font-bold max-sm:text-2xl">
-          Oops! Something went wrong!!!{' '}
+          Oops! Something went wrong!!!
           <span className="text-red-600">TRY AGAIN</span>
         </h1>
 
