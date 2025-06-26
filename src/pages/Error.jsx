@@ -30,7 +30,7 @@ const Error = () => {
       <div 
          target="_blank"
          className='py-4 '>     
-            <button className=' bg-red-500 rounded-2xl px-4 py-4 text-white font-bold hover:bg-red-700
+            <button className=' bg-red-500 rounded-2xl px-4 py-4 text-white font-bold hover:bg-red-700 
             '>Click Here To Go Back..</button>
         </div>
 

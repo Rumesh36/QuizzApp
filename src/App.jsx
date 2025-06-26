@@ -1,3 +1,4 @@
+import Error2 from "./pages/Error2"
 import Error from "./pages/Error"
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
   return (
     <>
        
-       <Error/>
+       <Error2/>
+        <Error/>
         
     </>
   )
